@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body {
+    background: black;
+    color: white;
+    
+}
+.container{
+        margin-top: 50px;
+}
+nav{
+    width: 100%;
+    height: 10vh;
+    padding: 0px 100px;
+    
+    
+    line-height: 75px;
+    z-index: 1;
+}
+section{
+    display: flex;
+}
+nav ul{
+    margin-right: 100px;
+   
+    float: right;
+}
+.logo{
+    margin-left: 100px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 16px; 
+    padding: 0 30px;
+    align-items: flex-end;
+}
+
+.cont{
+    border-radius: 5px;
+    background:#5528FF;
+    padding: 7px 25px;
+
+}
+.about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 70em;
+    text-align: left;
+    margin-top: 100px;
+    
+}
+.about-head{
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 65px;
+
+
+}
+.about-text{
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 51px;
+
+}
+.c-button{
+    background:#5528FF;
+    border-radius: 10px;
+    padding: 10px 35px;
+
+}
+.serve {
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .serve:before,
+  .serve:after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 90%;
+  }
+  
+  .serve:before {
+    right: 0.5em;
+    margin-left: -81%;
+  }
+  
+  .serve:after {
+    left: 0.5em;
+    margin-right: -50%;
+  
+  }
+  .c-4{
+    display: flex;
+  }
+  .sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+   
+    
+  }
+  .text1{
+    margin-left: 50px;
+  }
+
+  .group{
+    display: flex;
+    margin: 100px auto;
+    width: 80%;
+    justify-content: space-between;
+  }
+  .group2{
+    margin-left: 400px;
+  }
+
+  .clients {
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .clients :before,
+  .clients :after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 90%;
+  }
+  
+  .clients :before {
+    right: 0.5em;
+    margin-left: -81%;
+  }
+  
+  .clients :after {
+    left: 0.5em;
+    margin-right: -50%;
+  
+  }
+  .section2{
+    width: 100%;
+  }
+ .sec2{
+    margin-bottom: 50px;
+  }
+  .task1{
+    margin: 60px;
+    width: 25%;
+  }
+
+  .task{
+    width: 70%;
+   margin: 50px auto;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .teams {
+    overflow: hidden;
+    text-align: left;
+  }
+  
+  .teams :before,
+  .teams :after {
+    background-color: #fff;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 90%;
+  }
+  
+  .teams :before {
+    right: 0.5em;
+    margin-left: -81%;
+  }
+  
+  .teams :after {
+    left: 0.5em;
+    margin-right: -50%;
+  
+  }
+  .imagess{
+    border-radius: 50%;
+  }
+
+  .section3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 75%;
+    margin: 50px auto;
+
+  }
+   .team1{
+    width:30%;
+    display: flex;
+    margin: 30px 0;
+  }
+  /*
+  .flex1{
+    
+  } */
+ 
+  .merge{
+    margin: 10px;
+  }
+  footer{
+    width: 100%;
+    height: 10vh;
+    background: #373B49;
+    padding: 10px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+  }
+  .footer1{
+
+     margin-left: 150px;
+     margin-top: 10px;
+  }
+
+  .footer-img{
+    display: inline-block;
+    margin-right: 200px;
+    margin-top: 10px;
+  }
+  
